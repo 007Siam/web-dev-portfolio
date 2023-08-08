@@ -47,19 +47,54 @@ nav a {
     color: #474747;
     text-decoration: none;
 }
+
 /* Header related styles */
-.header{
+.header {
     background: #FFF8F3;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner-greeting{
-    
+
+.banner-content {
+    max-width: 500px;
+
 }
-.hardy{
+
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.hardy {
     width: 500px;
-    
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+/* main section styles */
+/* about section styles */
+.about {
+    text-align: center;
+    margin: 130px 230px;
+    padding: 200px 150px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
