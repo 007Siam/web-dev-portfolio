@@ -84,17 +84,42 @@ nav a {
 }
 
 /* main section styles */
+main {
+    max-width: 1140px;
+    justify-content: center;
+    margin: 130px auto;
+}
+
 /* about section styles */
 .about {
     text-align: center;
-    margin: 130px 230px;
+    /* margin: 130px 230px; */
     padding: 200px 150px;
     border-radius: 10px;
     background-color: #FFF8F3;
 }
-.section-description{
+
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    text-align: center;
+    color: #757575;
+    font-size: 25px;
+    font-weight: 200px;
+}
+
+.about-info {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
 }
